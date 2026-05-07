@@ -1,0 +1,28 @@
+#div1 {
+    background-color: aliceblue;
+}
+
+#title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.nhom1 {
+    border-radius: 20px;
+    border-color: green;
+    border-width: 2px;
+    border-style: solid;
+    border-top-style: dotted;
+    border-inline-start-width: 12px;
+    border-inline-start-color: greenyellow;
+    border-block-end-color: blue;
+    border-block-start-color: pink;
+}
+
+.nhom2 {
+    text-shadow: 10px 10px 10px green, 20px 20px 20px red;
+}
+
