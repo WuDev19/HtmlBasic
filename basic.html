@@ -189,7 +189,7 @@
             </ol>
         </div>
         <form style="display: flex; flex-direction: column;" autocapitalize="" autocomplete="on">
-            <label>Nhập tên: <input type="text"></label>
+            <label for="ten">Nhập tên: <input id="ten" type="text"></label>
             <label>Nhập địa chỉ: <input type="text"></label>
             <label>Nhập số điện thoại: <input type="tel"></label>
             <label> Nhập mật khẩu: <input type="password" placeholder="Nhập mật khẩu của bạn"></label>
@@ -205,6 +205,21 @@
                     <option>Táo</option>
                     <option>Táo</option>
                 </select></label>
+            <input type="range" step="5">
+            <input type="radio" value="Nam">
+            <input type="radio" value="Nữ">
+
+            <!-- cùng name thì chỉ được chọn 1-->
+            <label>
+                <input type="radio" name="gender" value="male">
+                Male
+            </label>
+
+            <label>
+                <input type="radio" name="gender" value="female">
+                Female
+            </label>
+            <label for="chon_mau">Chọn màu <input id="chon_mau" type="color"></label>
         </form>
     </div>
 </body>
