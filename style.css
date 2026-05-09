@@ -26,3 +26,58 @@
     text-shadow: 10px 10px 10px green, 20px 20px 20px red;
 }
 
+body {
+    background-image: url(viet_nam.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* cố định ko bị cuộn theo màn hình*/
+    background-size: contain;
+}
+
+#hello>h4 {
+    color: blueviolet;
+}
+
+#hello+table {
+    color: aquamarine;
+}
+
+li:nth-child(3) {
+    color: green;
+}
+
+#btn_login:hover {
+    background-color: aquamarine;
+}
+
+h4::after {
+    content: "hello";
+}
+
+#test_hover:hover {
+    font-size: 1.5em;
+    color: cadetblue;
+}
+
+#learn_ani:hover {
+    animation: learn_animation 2s infinite;
+    opacity: 0.5;
+}
+
+@keyframes learn_animation {
+    0% {
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+
+    50% {
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        opacity: 0.5;
+    }
+}
