@@ -81,3 +81,15 @@ h4::after {
         opacity: 0.5;
     }
 }
+
+@media ((max-width: 768px) and (orientation: portrait)) {
+    /*, là or, muốn kết hợp thì dùng and
+    bên trong ngoặc là điều kiện để thực code code bên trong {}*/
+    body {
+        background-image: none;
+    }
+
+    h4 {
+        font-size: 3em;
+    }
+}
